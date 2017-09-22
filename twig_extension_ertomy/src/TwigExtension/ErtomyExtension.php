@@ -9,9 +9,11 @@ namespace Drupal\twig_extension_ertomy\TwigExtension;
 
 use Drupal\Core\Template\TwigExtension;
 
+// incluidas para la función thumb 
 use Drupal\file\Entity\File;
 use Drupal\image\Entity\ImageStyle;
 
+// incluida para la función vista
 use Drupal\views\Views;
 
 

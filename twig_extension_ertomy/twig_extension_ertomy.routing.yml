@@ -1,0 +1,12 @@
+twig_extension_ertomy.filter:
+  path: '/twig-extension-ertomy/filter'
+  defaults:
+    _controller: '\Drupal\twig_extension_ertomy\TwigExtensionErtomyController::ertomyFilterRender'
+  requirements:
+    _access: 'TRUE'
+twig_extension_ertomy.function:
+  path: '/twig-extension-ertomy/function'
+  defaults:
+    _controller: '\Drupal\twig_extension_ertomy\TwigExtensionErtomyController::ertomyFunctionRender'
+  requirements:
+    _access: 'TRUE'

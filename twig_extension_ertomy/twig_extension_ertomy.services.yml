@@ -1,0 +1,6 @@
+services:
+  twig_extension_ertomy.twig.ertomy_extension:
+    arguments: ['@renderer', '@url_generator', '@theme.manager', '@date.formatter']
+    class: Drupal\twig_extension_ertomy\TwigExtension\ErtomyExtension
+    tags:
+      - { name: twig.extension }
